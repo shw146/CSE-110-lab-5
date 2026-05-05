@@ -11,7 +11,7 @@ function init() {
     select.addEventListener("input", updateImage);
     select.addEventListener("input", updateAudio);
 
-    range.addEventListener("change", updateVolume);
+    range.addEventListener("input", updateVolume);
 
     button.addEventListener("click", playAudio);
 }
